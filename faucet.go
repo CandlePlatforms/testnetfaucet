@@ -157,7 +157,7 @@ func main() {
 	mux.HandleFunc("/claim", createGetCoinsHandler(db))
 
 	c := cors.New(cors.Options{
-		AllowedOrigins:   []string{"https://faucet.terra.money"},
+		AllowedOrigins:   []string{"https://faucet.cndlchain.com"},
 		AllowCredentials: true,
 	})
 

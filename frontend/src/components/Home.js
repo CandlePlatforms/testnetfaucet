@@ -30,7 +30,7 @@ const sendSchema = Yup.object().shape({
 });
 
 const DENUMS_TO_TOKEN = {
-  uluna: 'Luna',
+  uluna: 'Candle',
 };
 
 const REQUEST_LIMIT_SECS = 30;
